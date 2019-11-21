@@ -31,7 +31,7 @@
   <project path="gen_rootfs"                   name="gen_rootfs.git"           remote="linaro-swg" revision="fe617d470e45778c909038bf3e7ca15174a4f893" />
   <project path="linux"                        name="linux.git"                remote="linaro-swg" revision="50403184d40d04b3daf140417e031c16c2985eaf" />
   <project path="optee_benchmark"              name="optee_benchmark.git"      remote="linaro-swg" revision="refs/tags/2.6.0"                          />
-  <project path="optee_client"                 name="optee_client.git"         remote="optee"      revision="refs/tags/2.6.0"                          />
+  <project path="optee_client"                 name="optee_client.git"         remote="syscase"    revision="syscase"                                  />
   <project path="optee_os"                     name="optee_os.git"             remote="syscase"    revision="syscase"                                  />
   <project path="optee_test"                   name="optee_test.git"           remote="optee"      revision="refs/tags/2.6.0"                          />
   <project path="qemu"                         name="qemu.git"                 remote="syscase"    revision="optee-syscase"                            />
