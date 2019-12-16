@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <remote fetch="ssh://git@github.com/zaidan"     name="syscase"/>
-  <remote fetch="ssh://git@github.com/zaidan"     name="linux"/>
+  <remote fetch="ssh://git@github.com/syscase"    name="syscase"/>
+  <remote fetch="ssh://git@github.com/syscase"    name="linux"/>
   <remote fetch="https://github.com/ARM-software" name="arm"/>
   <remote fetch="git://busybox.net"               name="busybox"/>
   <remote fetch="https://github.com/linaro-swg"   name="linaro-swg"/>
@@ -19,22 +19,22 @@
     <linkfile dest="build/gdb"      src="../toolchains/aarch64/bin/aarch64-linux-gnu-gdb"/>
   </project>
 
-  <project path="syscase"                      name="syscase.git"              remote="syscase"    revision="master"                                   />
-  <project path="afl"                          name="afl.git"                  remote="syscase"    revision="2.52b-optee"                              />
-  <project path="optee_examples"               name="optee_examples.git"       remote="syscase"    revision="feature/auto-detect-example-list"         />
-  <project path="optee_examples/agent"         name="optee_agent.git"          remote="syscase"    revision="master"                                   />
-  <project path="optee_examples/agent/smcchar" name="smcchar.git"              remote="syscase"    revision="master"                                   />
-  <project path="arm-trusted-firmware"         name="arm-trusted-firmware.git" remote="arm"        revision="3b39efa49d9949c80b6e76b99829f84619b46110" />
-  <project path="busybox"                      name="busybox.git"              remote="busybox"    revision="dbf5a6da6a4295ce26edd1ce34fde567d19afa02" />
-  <project path="strace"                       name="strace"                   remote="strace"     revision="69c68ef5bf588fe22f1e76cc6464c70227418da7" />
-  <project path="edk2"                         name="edk2.git"                 remote="syscase"    revision="syscase"                                  />
-  <project path="gen_rootfs"                   name="gen_rootfs.git"           remote="linaro-swg" revision="fe617d470e45778c909038bf3e7ca15174a4f893" />
-  <project path="linux"                        name="linux.git"                remote="linaro-swg" revision="50403184d40d04b3daf140417e031c16c2985eaf" />
-  <project path="optee_benchmark"              name="optee_benchmark.git"      remote="linaro-swg" revision="refs/tags/2.6.0"                          />
-  <project path="optee_client"                 name="optee_client.git"         remote="syscase"    revision="syscase"                                  />
-  <project path="optee_os"                     name="optee_os.git"             remote="syscase"    revision="syscase"                                  />
-  <project path="optee_test"                   name="optee_test.git"           remote="optee"      revision="refs/tags/2.6.0"                          />
-  <project path="qemu"                         name="qemu.git"                 remote="syscase"    revision="optee-syscase"                            />
-  <project path="qemu/dtc"                     name="dtc.git"                  remote="qemu"       revision="c1e55a5513e9bca41dc78a0f20245cc928596a3a" />
-  <project path="soc_term"                     name="soc_term.git"             remote="linaro-swg" revision="5493a6e7c264536f5ca63fe7511e5eed991e4f20" />
+  <project path="syscase-webui"                name="syscase-webui.git"         remote="syscase"    revision="master"                                   />
+  <project path="syscase"                      name="syscase.git"               remote="syscase"    revision="master"                              />
+  <project path="optee_examples"               name="optee_examples.git"        remote="syscase"    revision="feature/auto-detect-example-list"         />
+  <project path="optee_examples/agent"         name="syscase-optee-agent.git"   remote="syscase"    revision="master"                                   />
+  <project path="optee_examples/agent/smcchar" name="syscase-optee-smcchar.git" remote="syscase"    revision="master"                                   />
+  <project path="arm-trusted-firmware"         name="arm-trusted-firmware.git"  remote="arm"        revision="3b39efa49d9949c80b6e76b99829f84619b46110" />
+  <project path="busybox"                      name="busybox.git"               remote="busybox"    revision="dbf5a6da6a4295ce26edd1ce34fde567d19afa02" />
+  <project path="strace"                       name="strace"                    remote="strace"     revision="69c68ef5bf588fe22f1e76cc6464c70227418da7" />
+  <project path="edk2"                         name="edk2.git"                  remote="syscase"    revision="syscase"                                  />
+  <project path="gen_rootfs"                   name="gen_rootfs.git"            remote="linaro-swg" revision="fe617d470e45778c909038bf3e7ca15174a4f893" />
+  <project path="linux"                        name="linux.git"                 remote="linaro-swg" revision="50403184d40d04b3daf140417e031c16c2985eaf" />
+  <project path="optee_benchmark"              name="optee_benchmark.git"       remote="linaro-swg" revision="refs/tags/2.6.0"                          />
+  <project path="optee_client"                 name="optee_client.git"          remote="syscase"    revision="syscase"                                  />
+  <project path="optee_os"                     name="optee_os.git"              remote="syscase"    revision="syscase"                                  />
+  <project path="optee_test"                   name="optee_test.git"            remote="optee"      revision="refs/tags/2.6.0"                          />
+  <project path="qemu"                         name="qemu.git"                  remote="syscase"    revision="optee-syscase"                            />
+  <project path="qemu/dtc"                     name="dtc.git"                   remote="qemu"       revision="c1e55a5513e9bca41dc78a0f20245cc928596a3a" />
+  <project path="soc_term"                     name="soc_term.git"              remote="linaro-swg" revision="5493a6e7c264536f5ca63fe7511e5eed991e4f20" />
 </manifest>
