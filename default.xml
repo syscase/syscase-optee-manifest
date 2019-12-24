@@ -13,11 +13,11 @@
   <default remote="syscase" revision="master"/>
 
   <project path="."                            name="syscase-optee.git"               remote="syscase"    revision="master"                                   />                                                                    
-  <project path="syscase-webui"                name="syscase-webui.git"               remote="syscase"    revision="master"                                   />
-  <project path="syscase"                      name="syscase.git"                     remote="syscase"    revision="master"                                   />
+  <project path="syscase-webui"                name="syscase-webui.git"               remote="syscase"    revision="refs/tags/0.5.1"                                    />
+  <project path="syscase"                      name="syscase.git"                     remote="syscase"    revision="refs/tags/0.2.0"                                    />
   <project path="optee_examples"               name="optee_examples.git"              remote="syscase"    revision="syscase-optee-2.6.0"                      />
-  <project path="optee_examples/agent"         name="syscase-optee-agent.git"         remote="syscase"    revision="master"                                   />
-  <project path="optee_examples/agent/smcchar" name="syscase-optee-agent-smcchar.git" remote="syscase"    revision="master"                                   />
+  <project path="optee_examples/agent"         name="syscase-optee-agent.git"         remote="syscase"    revision="refs/tags/0.5.0"                                    />
+  <project path="optee_examples/agent/smcchar" name="syscase-optee-agent-smcchar.git" remote="syscase"    revision="refs/tags/0.5.0"                                    />
   <project path="arm-trusted-firmware"         name="arm-trusted-firmware.git"        remote="arm"        revision="3b39efa49d9949c80b6e76b99829f84619b46110" />
   <project path="busybox"                      name="busybox.git"                     remote="busybox"    revision="dbf5a6da6a4295ce26edd1ce34fde567d19afa02" />
   <project path="strace"                       name="strace"                          remote="strace"     revision="69c68ef5bf588fe22f1e76cc6464c70227418da7" />
