@@ -12,7 +12,7 @@
 
   <default remote="syscase" revision="master"/>
 
-  <project path="."                            name="syscase-optee.git"               remote="syscase"    revision="master"                                   />                                                                    
+  <project path="."                            name="syscase-optee.git"               remote="syscase"    revision="refs/tags/0.1.0"                          />                                                                    
   <project path="syscase-webui"                name="syscase-webui.git"               remote="syscase"    revision="refs/tags/0.5.1"                                    />
   <project path="syscase"                      name="syscase.git"                     remote="syscase"    revision="refs/tags/0.2.0"                                    />
   <project path="optee_examples"               name="optee_examples.git"              remote="syscase"    revision="syscase-optee-2.6.0"                      />
