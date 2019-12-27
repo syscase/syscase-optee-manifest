@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <remote fetch="ssh://git@github.com/syscase"    name="syscase"/>
-  <remote fetch="ssh://git@github.com/syscase"    name="linux"/>
+  <remote fetch="https://github.com/syscase"      name="syscase"/>
+  <remote fetch="https://github.com/syscase"      name="linux"/>
   <remote fetch="https://github.com/ARM-software" name="arm"/>
   <remote fetch="git://busybox.net"               name="busybox"/>
   <remote fetch="https://github.com/linaro-swg"   name="linaro-swg"/>
